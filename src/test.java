@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
 
@@ -29,7 +30,9 @@ public class test {
         System.out.println("---END CATEGORYS---");*/
         String a =  "a";
         String b = "a";
-        System.out.println(a==b);
+
+         HashMap<String,HashMap<String,String>> USER_PRIV = new HashMap<>(); //user - priv
+        System.out.println(USER_PRIV.get("")==null);
 
     }
 }
